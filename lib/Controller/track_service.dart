@@ -17,7 +17,7 @@ class GetProductService {
     final box = GetStorage();
     var id = box.read("track_id");
     // Enter Your Api key
-    var api_key = "4191ff2cd4528434029cf33d63363d5c";
+    var api_key = "Enter Your API Key here";
     http.Response response = await http.get(
       Uri.parse(
           "https://api.musixmatch.com/ws/1.1/track.lyrics.get?track_id=$id&apikey=$api_key"),
