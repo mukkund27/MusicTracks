@@ -20,7 +20,7 @@ class GetProductService {
     final box = GetStorage();
     var id = box.read("track_id");
     // Enter Your Api key
-    var api_key = "4191ff2cd4528434029cf33d63363d5c";
+    var api_key = "4191ff2cd4528434029cf33d633******";
     response = await dio.get(
         "https://api.musixmatch.com/ws/1.1/track.lyrics.get?track_id=$id&apikey=$api_key");
 
