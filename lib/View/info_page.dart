@@ -1,9 +1,5 @@
-import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_state_manager/src/simple/get_state.dart';
-import 'package:musicplayer/Controller/track_service.dart';
-
-import 'package:musicplayer/View/no_connection.dart';
 import '../Controller/internetcheckerController.dart';
 import '../Model/lyrics_model.dart';
 
